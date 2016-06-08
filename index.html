@@ -1,95 +1,488 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE html>
 <html>
+<head>
+	<title>Xiaolei Zhen</title>
+	<!--fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<!--//fonts-->
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Kong Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- js -->
+	<!-- start-smooth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smooth-scrolling -->
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Xiaolei Zhen" />
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-    <title>Xiaolei Zhen</title>
-  </head>
+</head>
+<body>
+<!-- banner -->
+<div class="banner" id="home">
+	<div class="container"> 
+		<div class="top-header row">
+			<script src="js/classie.js"></script>
+			<!--top-nav---->
+			<!-- <div class="logo">
+				<a href="index.html"><img src="images/logo.png" alt=""/></a>
+			</div> -->
+			<div class="top-nav">
+				<div class="nav-icon">
+					    <a href="#" class="right_bt" id="activator"><span> </span> </a>
+				</div>
+				<div class="box" id="box">
+					<div class="box_content">        					                         
+						<div class="box_content_center">
+							<div class="form_content">
+								<div class="menu_box_list">
+									<ul>
+										<li><a class="scroll" href="#home"><span>home</span></a></li>
+										<li><a class="scroll" href="#about"><span>about</span></a></li>
+										<li><a class="scroll" href="#services"><span>projects</span></a></li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+								<a class="boxclose" id="boxclose"> <span> </span></a>
+							</div>                                  
+						</div> 	
+					</div> 
+				</div>       	  
+			</div>
+			<!---start-click-drop-down-menu----->
+			        <!---start-dropdown--->
+			         <script type="text/javascript">
+						var $ = jQuery.noConflict();
+							$(function() {
+								$('#activator').click(function(){
+									$('#box').animate({'top':'0px'},900);
+								});
+								$('#boxclose').click(function(){
+								$('#box').animate({'top':'-1000px'},900);
+								});
+							});
+							$(document).ready(function(){
+							//Hide (Collapse) the toggle containers on load
+							$(".toggle_container").hide(); 
+							//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+							$(".trigger").click(function(){
+								$(this).toggleClass("active").next().slideToggle("slow");
+									return false; //Prevent the browser jump to the link anchor
+							});
+												
+						});
+					</script>
+			<!---//End-click-drop-down-menu----->
+			<div class="clearfix"> </div>
+		</div>
+		<div class="banner-info">
+			<div class="banner-left">
+				<img class="img-circle" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAIlAAAAJDg3YWVjZDFiLWI2NTktNDk3Yi04OTA2LWJmOWU4YWVlZDVhOA.jpg" alt=""/>
+			</div>
+			<div class="banner-right">
+				<h1>I’M XIAOLEI ZHEN</h1>
+				<div class="border"></div>
+				<h2>SOFTWARE ENGINEER</h2>
+				<a href="/downloads/Jun8-2016.pdf">DOWNLOAD MY RESUME</a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--/header-banner-->
+<!--about-->
+<div class="about text-center" id="about">
+	<div class="container">
+		<h3>ABOUT ME</h3>
+		<div class="strip text-center"><img src="images/about.png" alt=" "/></div>
+		<p>Started coding since 10 years old using Basic on DOS.
+Got an admission into Shanghai Jiao Tong University(Ranked 3 in China) with a national rank of top 0.026% and got a bachelor degree of Computer Science there. 
+Finished my first full stack website in 2011 using PHP which is a college social network. 
+Finish my first iOS app in 2012 which is a course schedule application. 
+Completed my first hackthon in 2013 in Yahoo and got an award of Hacker’s Choice. 
+Joined my first startup company in Dec, 2016 called SocialGear.
+Graduated from a master program in May, 2016 in Rice University majoring Computer Science.
+Will join Facebook Inc. in July.</p>
+		<ul>
+			<li><a class="fb" href="https://www.facebook.com/zxl9171"></a></li>
+			<li><a class="in" href="https://www.linkedin.com/in/xiaoleizhen
+"></a></li>
+			<li><a class="goog" href="https://plus.google.com/u/0/101352952907666078795"></a></li>
+		</ul>
+	</div>
+</div>
+<!--//about-->
+<div class="about-back"></div>
+<!--my skill-->
+<div class="my-skills text-center">
+	<div class="container">
+		<h3>MY SKILLS</h3>
+		<div class="strip text-center"><img src="images/skill.png" alt=" "/></div>
+		<div class="skill-grids">
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-1"></div>
+						<p>C++</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-2"></div>
+						<p>Angular.js</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-3"></div>
+						<p>Objective-C</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-4"></div>
+						<p>Node.js</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-5"></div>
+						<p>Java</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-6"></div>
+						<p>Javascript</p>
+					</div>
+					<div class="clearfix"> </div>
+				 <script type="text/javascript" src="js/circles.js"></script>
+					         <script>
+								var colors = [
+										['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff']
+									];
+								for (var i = 1; i <= 7; i++) {
+									var child = document.getElementById('circles-' + i),
+										percentage = 90;
+										
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     80,
+										width:      10,
+										number:   	percentage / 1,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+								}
+						
+				</script>
+		</div>
+	</div>	
+</div>
+<!--//my skill-->
+<div class="my-skill-back"></div>
+<!--education-->
+<div class="education text-center">
+	<div class="container">
+		<div class="edu-info">
+			<h3>EDUCATION</h3>
+		</div>
+		<div class="strip text-center"><img src="images/edu.png" alt=" "/></div>
+		<div class="edu-grids">
+			<div class="col-md-4 col-md-offset-2 edu-grid">
+				<p>2010 - 2014</p><span>Graduated</span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>BACHELOR DEGREE OF COMPUTER SCIENCE</h3>
+						<h4>Shanghai Jiao Tong University</h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 edu-grid">
+				<p>2015 - 2016</p><span>Graduated</span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>MASTER DEGREE OF COMPUTER SCIENCE</h3>
+						<h4>Rice University</h4>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	
+</div>
+<!--//education-->
+<div class="strip-border"><p></p></div>
+<!--work-->
+<div class="work-experience text-center">
+	
+	<div class="container">
+		<div class="work-info">
+			<h3>WORK EXPERIENCE</h3>
+		</div>
+		<div class="strip text-center"><img src="images/work.png" alt=" "/></div>
+		<div class="work-grids">
+			<div class="col-md-4 w-grid">
+				<div class="work-grid">
+					<h3>2016 - Now</h3>
+					<div class="work-grid-info">
+						<h4>Facebook</h4>
+						<h5>Software Engineer</h5>
+						<p>Currently bootcamper.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 w-grid">
+				<div class="work-grid">
+					<h3>2015 - 2016</h3>
+					<div class="work-grid-info">
+						<h4>SocialGear.us</h4>
+						<h5>Co-founder & CTO</h5>
+						<p>Social Gear is an early stage startup company with 6 people. It’s an event based social network.
+						Finished the alpha version with 3 other engineers in one month.
+						Front-end with Angular.JS and backend with Spring on Tomcat.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 w-grid">
+				<div class="work-grid">
+					<h3>8/2013 - 9/2013</h3>
+					<div class="work-grid-info">
+						<h4>Yahoo</h4>
+						<h5>Software Engineer Intern</h5>
+						<p>Developed a social news aggregator iOS app prototype with personalised recommendation.	
+Complete the iOS app and helped with building the backend sever with Node.js express.
+</p>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//work-->
+<div class="services-back"></div>
 
-  <body>
+<!--services-->
+<div class="services text-center" id="services">
+	<div class="container">
+		<div class="ser-info">
+			<h3>PROJECTS</h3>
+		</div>
+		<div class="strip text-center"><img src="images/ser.png" alt=" "/></div>
+		<div class="ser-grids">
+			<div class="col-md-3 ser-grid">
+				<h3>Movie Eyes - HackRice</h3>
+				<p>Movie Eyes reads in any movies or tv series and identifies the actors/actresses on the fly. While the movie is playing, it captures the face of the actors by using a facial recognition system, compares the face with the sample faces in our database, and then shows a list of actors'/actresses’ information right next to the video player. Movie Eyes will tell you the actor's name, profile, photo, birthday, biography, a list of other works, and his or her recent news.</p>
+			</div>
+			<div class="col-md-3 ser-grid">
+				<h3>Easy Course</h3>
+				<p>Due to the lack of a curriculum communication platform for college life, our team designed a website with ThinkPHP, JQuery and Bootstrap for curriculum communication. The website can automatically get the syllabus from the educational system of our school, according to which groups the users. Users can publish announcements, chat online and send messages to each other with SMS and email. GoogleCalendar is also supported to act as a reminder. </p>
+			</div>
+			<div class="col-md-3 ser-grid">
+				<h3>The Way to Heaven</h3>
+				<p>Based on NASA World Wind Java map library and Java RMI library
+Designed the game API under specific requirements
+Be able to accept at least 20 player connections from independently implemented clients via internet Applied real time game design, team movement updating instantly
+Featured ability to send any types of message between team members
+Decentralized design, server is not needed after game began</p>
+			</div>
+			<div class="col-md-3 ser-grid">
+				<h3>Score Scratchcards</h3>
+				<p>After the School Registry website publish the score, the extension get it automatically and remind the user. The score is not directly presented to the user but in the form of scratch cards. The user can freely choose whether and when to scratch them, which can keep the score mysterious.</p>
+			</div>
+			<div class="clearfix"></div>
+			<div class="col-md-3 ser-grid">
+				<h3>Investigation and Realization of White-box Cryptography</h3>
+				<p>- The project for "Participation in Research Program" in Shanghai Jiao Tong University. 
+- Use C++ to implement a new SMS4 white-box improved algorithm.
+- The innovation of this algorithm is the new method for scrambling code.
+- Discuss the efficiency and the feasibility of this algorithm.</p>
+			</div>
+			<div class="col-md-3 ser-grid">
+				<h3>A toy helicopter controlled by Android Smartphone</h3>
+				<p>Remake a 3-channel 2.4G remote helicopter, and write an android program. Then control the helicopter with android smartphone via bluetooth.</p>
+			</div>
+			<div class="col-md-3 ser-grid">
+				<h3>An iOS remote controller of Yahoo! Web Player</h3>
+				<p>It's a full-fledge project involving iOS, node.js backend server and Chrome browser extension. We built it in 24 hrs to compete in Yahoo! Beijing Hackday which was awarded with "the Hacker's Choice Award" voted by over three hundred rival hackers.</p>
+			</div>
+			<div class="col-md-3 ser-grid">
+				<h3>Page-rank Calculating on Distributed File System of Hadoop</h3>
+				<p>Calculate page-rank by Map-Reduce</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//services-->
+<!--portfolio-->
+<!-- <div class="gallery-section text-center" id="portfolio">
+	<div class="container">
+		<h3>PORTFOLIO</h3>
+		<div class="strip text-center"><img src="images/port.png" alt=" "/></div>
+		<p>You think water moves fast? You should see ice. It moves like it has a mind. 
+		Like it knows it killed the world once and got a taste for murder. After the avalanche, 
+		it took us a week to climb out. Now, I don't know exactly when we turned on each other, 
+		but I know that seven of us survived the slide and only five made it out. Now we took an 
+		oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, 
+		but it wasn't. Nature is lethal but it doesn't hold a candle to man.</p>
+		<div class="gallery-grids">
+			<div class="top-gallery">
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/p1.jpg" class="swipebox"><img src="images/p1.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Project Name</h4>
+							<p>WEB DESIGN</p>
+							<div class="button"><a href="images/p1.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/p2.jpg" class="swipebox"><img src="images/p2.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Project Name</h4>
+							<p>WEB DESIGN</p>
+							<div class="button"><a href="images/p2.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/p3.jpg" class="swipebox"><img src="images/p3.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Project Name</h4>
+							<p>WEB DESIGN</p>
+							<div class="button"><a href="images/p3.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/p4.jpg" class="swipebox"><img src="images/p4.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Project Name</h4>
+							<p>WEB DESIGN</p>
+							<div class="button"><a href="images/p4.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/p5.jpg" class="swipebox"><img src="images/p5.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Project Name</h4>
+							<p>WEB DESIGN</p>
+							<div class="button"><a href="images/p5.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/p6.jpg" class="swipebox"><img src="images/p6.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Project Name</h4>
+							<p>WEB DESIGN</p>
+							<div class="button"><a href="images/p6.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="clearfix"> </div>
+			</div>
+				<link rel="stylesheet" href="css/swipebox.css">
+				<script src="js/jquery.swipebox.min.js"></script> 
+					<script type="text/javascript">
+						jQuery(function($) {
+							$(".swipebox").swipebox();
+						});
+					</script>
+		</div>
+	</div>
+</div> -->
+<!--//portfolio-->
+<!--process-->
+<!-- <div class="process text-center">
+	<div class="container">
+		<h3>PROCESS</h3>
+		<div class="strip text-center"><img src="images/pro.png" alt=" "/></div>
+		<div class="process-girds">
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagea"></div>
+					<p>IDEA</p>
+					<img src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imageb"></div>
+					<p>CONCEPT</p>
+					<img class="pro-imga" src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagec"></div>
+					<p>DESIGN</p>
+					<img class="pro-img" src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imaged"></div>
+					<p>DEVELOP</p>
+					<img class="pro-imgb" src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagee"></div>
+					<p>TEST</p>
+					<img src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagef"></div>
+					<p>LAUNCH</p>
+					
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div> -->
+<!--//process-->
 
-    <!-- 顶部链接 -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/zxl9171">Folk me on GitHub</a>
+<!--//resume-->
 
-          <h1 id="project_title">Xiaolei Zhen</h1>
-          <h2 id="project_tagline">Graduate Student at Rice University</h2>
-        </header>
-    </div>
-
-    <!-- 正文 -->
-    <div id="main_content_wrap" class="outer">
-     <section id="main_content" class="inner">
-      <!-- 个人信息部分 -->
-        <h3>
-          <a name="contact-me" class="anchor" href="#contact-me"><span class="octicon octicon-link"></span></a>Contact Me
-        </h3>
-        <p>E-mail: <a href="mailto:Xiaolei.Zhen@rice.edu">Xiaolei.Zhen@rice.edu</a></p>
-        <p>Address: <em>1515 Bissonnet, Mailbox #87, Houston, TX, 77005</em></p>
-        <p><a href="http://www.linkedin.com/profile/view?id=145698107">LinkedIn</a></p>
-        <p><a href="https://me.alipay.com/zhenxiaolei">Donate</a></p>
-        <!-- 工作经历 -->
-        <h3>
-          <a name="work-experience" class="anchor" href="#work-experience"><span class="octicon octicon-link"></span></a>Work Experience
-        </h3>
-        <p><strong>Yahoo! Beijing Global R&amp;D Center</strong>
-          <em>Software Dev Engineer (Intern)</em></p>
-        <!-- 项目经历 -->
-          <p>From July.2013 To Sep.2013</p>
-        <h3>
-          <a name="project-experience" class="anchor" href="#project-experience"><span class="octicon octicon-link"></span></a>Project Experience
-        </h3>
-        <p><strong><a href="https://github.com/stranbird/fuzzy-ninja">An iOS remote controller of Yahoo! Web Player(fuzzy-ninja)</a></strong></p>
-        <p>Implemented a remote controller for Yahoo! Web Player based on the iOS. In it, we used a chrome extension to fit all web pages that consist Yahoo! Web Player. Node.js and faye to construct the server, and QRcode to match the smart phone and the web page.</p>
-        <p><strong>Investigation and realization of white-box cryptography</strong></p>
-        <p>In traditional cryptography, we always assume that the operating environment (terminal) of the cryptographic algorithms is safe. But in daily application, however, the assumption is not always right. The password software implementation is always fully visible to the attackers. So we need to protect the key with some special method, to prevent the attackers from getting the key by observing the memory or executing the cryptographic software.</p>
-
-        <p><strong><a href="http://blog.renren.com/share/1903344301/15159520593">"Score Scratchcards", an extension of Chrome</a></strong></p>
-        <p>After the School Registry website publish the score, the extension get it automatically and remind the user. The score is not directly presented to the user but in the form of scratch cards. The user can freely choose whether and when to scratch them, which can keep the score mysterious.</p>
-
-        <p><strong><a href="https://github.com/stranbird/EasyCourse">"Easy Course", a social network for information of classes</a></strong></p>
-
-        <p>Due to the lack of a curriculum communication platform for college life, our team designed a website with ThinkPHP, JQuery and Bootstrap for curriculum communication. The website can automatically get the syllabus from the educational system of our school, according to which groups the users. Users can publish announcements, chat online and send messages to each other with SMS and email. GoogleCalendar is also supported to act as a reminder. </p>
-        <!-- 所获得奖励 -->
-        <h3>
-          <a name="awards" class="anchor" href="#awards"><span class="octicon octicon-link"></span></a>Awards
-        </h3>
-        
-        <p>2014.9    <strong>Champion of AnGeek</strong></p>
-        
-        <p>2014.6    <strong>Outstanding Undergraduate Student</strong></p>
-        
-        <p>2013    <strong>School Scholarship Winner</strong></p>
-        
-        <p>2013.5  <strong><a href="https://raw.github.com/stranbird/fuzzy-ninja/master/report/IMG_0002.JPG">Yahoo! Hack Day Hacker's Choice Award</a></strong></p>
-
-        <p>2012.2  <strong><a href="http://comap-math.com/mcm/2013Certs/19101.pdf">The Honorable Mention Prize (second prize) of the ICM(Interdisciplinary Contest in Modeling )</a></strong></p>
-
-        <p>2012    <strong>School Scholarship Winner</strong></p>
-
-        <p>2011    <strong>School Scholarship Winner</strong></p>
-        <!-- 简历下载 -->
-        <h3>
-          <a name="downloads" class="anchor" href="#project-experience"><span class="octicon octicon-link"></span></a>Downloads
-        </h3>
-        <p><a href="downloads/en-zhen.pdf">CV in English(pdf)</a><p>
-        <p><a href="downloads/ch-zhen.pdf">CV in Chinese(pdf)</a><p>
-      </section>
-    </div>
-
-    <!-- 页脚  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Copyright by <a href="https://github.com/zxl9171">Xiaolei Zhen</a></p>
-        <p>Template from <a href="http://pages.github.com">GitHub Pages</a></p>
-        <p style="clear">    
-        <script src="http://count.2881.com/count/count.asp?id=37008&sx=1&ys=5" language="JavaScript" charset="gb2312"></script><!-- 外部计数器 -->
-        </p>
-
-      </footer>
-    </div>
+<!--footer-->
+<div class="footer">
+	<div class="container">
+		<p>Copyright &copy; 2015 Kong. Template by <a href="http://w3layouts.com/"> W3layouts</a></p>
+	</div>
+</div>
+<!--//footer-->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
 </html>
